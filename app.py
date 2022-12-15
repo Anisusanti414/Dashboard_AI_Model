@@ -44,7 +44,7 @@ navbar = dbc.NavbarSimple(
 
 ## Import Dataset gpp
 training = pd.read_csv('data_input/training.csv')
-data = pd.read_csv('data_input/Site.csv')
+data = pd.read_csv('data_input/site.csv')
 akurasi = pd.read_csv('data_input/akurasi.csv')
 
 dev = pd.read_csv('data_input/Data_deviasi.csv')
